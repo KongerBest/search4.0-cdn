@@ -255,7 +255,7 @@ $(function() {
         $('#Select').css('color', search.data[i].color); 
         $('#nav').css('display', 'none');
         $('#folder').css('display', 'block');
-        document.getElementById("Select").innerHTML = "<hr>书签 <img src='img/search-change.svg?v=2ae7ab8'>";
+        document.getElementById("Select").innerHTML = "<hr>书签 <img src='https://cdn.jsdelivr.net/gh/konghuaiqing/search4.0-cdn@4.0img/search-change.svg?v=2ae7ab8'>";
         $("#inputText").attr("placeholder", search.data[i].placeholder);
         $("#form").attr("action", search.data[i].searchlink);
         $("#inputText").attr("name", search.data[i].searchname);
@@ -303,7 +303,7 @@ $(function() {
 })
 var width = $(document).width();
 $('#bg').click(function() {
-  width < 768 ? ($('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(img/bg-xs.jpg)')) : ($('#main').css('background-image', 'none'))) : $('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(img/bg.jpg)')) : ($('#main').css('background-image', 'none'));
+  width < 768 ? ($('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(https://cdn.jsdelivr.net/gh/konghuaiqing/search4.0-cdn@4.0img/bg-xs.jpg)')) : ($('#main').css('background-image', 'none'))) : $('#main').css('background-image') == 'none' ? ($('#main').css('background-image', 'url(https://cdn.jsdelivr.net/gh/konghuaiqing/search4.0-cdn@4.0img/bg.jpg)')) : ($('#main').css('background-image', 'none'));
   var background = $('#main').css('background-image');
   storage.bg = [background];
 })
